@@ -6,7 +6,7 @@
 $ git clone git@github.com:wooyaggo/typescript.git
 ```
 
-then you need to install packages for proejct and global.
+then you need to install packages for project and global.
 
 ```
 $ npm run init
