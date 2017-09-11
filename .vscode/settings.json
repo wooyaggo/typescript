@@ -1,0 +1,10 @@
+{
+	"eslint.enable": true,
+	"search.exclude": {
+		"**/node_modules": true,
+		"**/bower_components": true,
+		"js": true,
+		"bin": true
+	},
+	"window.title": "${rootName} | ${dirty}${activeEditorShort}${separator}${appName}"
+}
