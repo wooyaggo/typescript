@@ -4,7 +4,9 @@
   "description": "Node.js TypeScript Project Template",
   "main": "bin/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "init": "npm g typescript pm2 -g & npm i",
+    "dev": "tsc & pm2 start pm2.config.js",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
