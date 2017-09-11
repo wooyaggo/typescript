@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./bin",
+
+    "sourceMap": true,
+    "sourceRoot": "./src",
+
+    // 문법 에러 체크
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  }
+}

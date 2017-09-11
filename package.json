@@ -1,0 +1,23 @@
+{
+  "name": "typescript_template",
+  "version": "1.0.0",
+  "description": "Node.js TypeScript Project Template",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wooyaggo/typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wooyaggo/typescript/issues"
+  },
+  "homepage": "https://github.com/wooyaggo/typescript#readme",
+  "dependencies": {
+    "@types/node": "8.0.28"
+  }
+}
