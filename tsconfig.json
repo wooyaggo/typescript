@@ -5,8 +5,8 @@
     "rootDir": "./src",
     "outDir": "./bin",
 
-    "sourceMap": true,
     "sourceRoot": "./src",
+    "inlineSourceMap": true,
 
     "typeRoots": [
       "node_modules/@types"
