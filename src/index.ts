@@ -14,9 +14,9 @@ function getArg( $i: number, $message: string ){
 	return value;
 }
 
-const spreadsheet_id = getArg( 2, "Google Spreadsheet id is missing" );
-const worksheet_id = getArg( 3, "train" );
-const dir = getArg( 4, "D:\\Works\\BT21\\unity\\cooky\\Assets\\Resources\\Data" );
+const spreadsheet_id = getArg( 2, "Google Spreadsheet id is missing." );
+const worksheet_id = getArg( 3, "Worksheet is missing." );
+const dir = getArg( 4, "Save path is missing." );
 
 start();
 
