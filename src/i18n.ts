@@ -43,8 +43,6 @@ async function start(){
 
 	for( let i = 0 ; i < list.length ; i++ ){
 		var { worksheet_id, spreadsheet_id } = list[ i ];
-		console.log( "spreadsheet_id : " + spreadsheet_id );
-		console.log( "worksheet_id : " + worksheet_id );
 
 		await new Promise( $done => {
 			Load( spreadsheet_id, worksheet_id, ( $rows ) =>{
