@@ -1,0 +1,592 @@
+{
+	"data": [
+		{
+			"key": "VERSION",
+			"value": {
+				"data": {
+					"value": 17
+				}
+			}
+		},
+		{
+			"key": "INIT",
+			"value": "initialized"
+		},
+		{
+			"key": "STARTED",
+			"value": ""
+		},
+		{
+			"key": "GOLD",
+			"value": {
+				"data": {
+					"value": 1250
+				}
+			}
+		},
+		{
+			"key": "FOOD",
+			"value": {
+				"data": {
+					"value": 100
+				}
+			}
+		},
+		{
+			"key": "FOOD_MAX",
+			"value": {
+				"data": {
+					"value": 100
+				}
+			}
+		},
+		{
+			"key": "REST",
+			"value": ""
+		},
+		{
+			"key": "REST_AT",
+			"value": ""
+		},
+		{
+			"key": "STAM",
+			"value": {
+				"data": {
+					"value": 100
+				}
+			}
+		},
+		{
+			"key": "STAM_MAX",
+			"value": {
+				"data": {
+					"value": 100
+				}
+			}
+		},
+		{
+			"key": "BODY",
+			"value": "403"
+		},
+		{
+			"key": "CONTEST_SERIES",
+			"value": {
+				"data": {
+					"value": 1
+				}
+			}
+		},
+		{
+			"key": "CONTEST",
+			"value": {
+				"data": [
+					{
+						"contest_id": "contest_01",
+						"status": 2,
+						"fails": 1
+					},
+					{
+						"contest_id": "contest_02",
+						"status": 0,
+						"fails": 0
+					},
+					{
+						"contest_id": "contest_03",
+						"status": 0,
+						"fails": 0
+					}
+				]
+			}
+		},
+		{
+			"key": "CONTEST_LAST_FAIL_REWARD",
+			"value": "5248567432238175194"
+		},
+		{
+			"key": "INVENTORY_FOOD",
+			"value": {
+				"data": [
+					{
+						"item_id": "rice_01",
+						"count": 0
+					},
+					{
+						"item_id": "rice_02",
+						"count": 0
+					},
+					{
+						"item_id": "meat_01",
+						"count": 0
+					},
+					{
+						"item_id": "seafood_01",
+						"count": 0
+					},
+					{
+						"item_id": "meat_02",
+						"count": 0
+					},
+					{
+						"item_id": "seafood_02",
+						"count": 0
+					},
+					{
+						"item_id": "seafood_03",
+						"count": 0
+					},
+					{
+						"item_id": "seafood_04",
+						"count": 0
+					},
+					{
+						"item_id": "seafood_05",
+						"count": 0
+					},
+					{
+						"item_id": "fruit_02",
+						"count": 0
+					},
+					{
+						"item_id": "fruit_01",
+						"count": 0
+					},
+					{
+						"item_id": "fruit_04",
+						"count": 0
+					},
+					{
+						"item_id": "fruit_03",
+						"count": 0
+					},
+					{
+						"item_id": "fruit_05",
+						"count": 0
+					},
+					{
+						"item_id": "bread_02",
+						"count": 0
+					},
+					{
+						"item_id": "bread_01",
+						"count": 4
+					},
+					{
+						"item_id": "bread_03",
+						"count": 0
+					},
+					{
+						"item_id": "bread_05",
+						"count": 0
+					},
+					{
+						"item_id": "bread_04",
+						"count": 0
+					},
+					{
+						"item_id": "bread_06",
+						"count": 0
+					},
+					{
+						"item_id": "bread_07",
+						"count": 0
+					},
+					{
+						"item_id": "bread_09",
+						"count": 0
+					},
+					{
+						"item_id": "bread_08",
+						"count": 0
+					}
+				]
+			}
+		},
+		{
+			"key": "INVENTORY_REST",
+			"value": {
+				"data": [
+					{
+						"rest_id": "rest_01",
+						"stats": 0
+					}
+				]
+			}
+		},
+		{
+			"key": "INVENTORY_DECORATION",
+			"value": {
+				"data": [
+					{
+						"item_id": "deco_01_01",
+						"status": 4
+					},
+					{
+						"item_id": "deco_02_01",
+						"status": 1
+					},
+					{
+						"item_id": "deco_01_02",
+						"status": 4
+					},
+					{
+						"item_id": "deco_01_03",
+						"status": 1
+					},
+					{
+						"item_id": "deco_02_03",
+						"status": 1
+					},
+					{
+						"item_id": "deco_01_04",
+						"status": 4
+					},
+					{
+						"item_id": "deco_02_04",
+						"status": 1
+					},
+					{
+						"item_id": "deco_01_06",
+						"status": 1
+					},
+					{
+						"item_id": "deco_02_06",
+						"status": 1
+					},
+					{
+						"item_id": "deco_01_07",
+						"status": 1
+					},
+					{
+						"item_id": "deco_02_07",
+						"status": 1
+					},
+					{
+						"item_id": "deco_01_09",
+						"status": 4
+					},
+					{
+						"item_id": "deco_02_09",
+						"status": 1
+					},
+					{
+						"item_id": "deco_01_10",
+						"status": 4
+					},
+					{
+						"item_id": "deco_02_10",
+						"status": 1
+					},
+					{
+						"item_id": "deco_01_11",
+						"status": 1
+					},
+					{
+						"item_id": "deco_02_11",
+						"status": 1
+					}
+				]
+			}
+		},
+		{
+			"key": "INVENTORY_BEAUTY",
+			"value": {
+				"data": []
+			}
+		},
+		{
+			"key": "INVENTORY_DELIVERY",
+			"value": {
+				"data": []
+			}
+		},
+		{
+			"key": "INVENTORY_DELIVERY_START_AT",
+			"value": "5248567435546651890"
+		},
+		{
+			"key": "INVENTORY_TICKET",
+			"value": {
+				"data": [
+					{
+						"category_id": "deco_frame",
+						"count": 0
+					}
+				]
+			}
+		},
+		{
+			"key": "INVENTORY_TICKET_ISSUED",
+			"value": {
+				"data": [
+					{
+						"category_id": "deco_frame",
+						"count": 20
+					}
+				]
+			}
+		},
+		{
+			"key": "FORTUNE_COOKY_LAST",
+			"value": "5248568150911271868"
+		},
+		{
+			"key": "FORTUNE_COOKY_SEED",
+			"value": {
+				"data": {
+					"value": 828
+				}
+			}
+		},
+		{
+			"key": "FORTUNE_COOKY_INDEX",
+			"value": ""
+		},
+		{
+			"key": "TUTORIAL",
+			"value": {
+				"data": [
+					{
+						"key": "tutorial_1",
+						"value": 25
+					}
+				]
+			}
+		},
+		{
+			"key": "TUTORIAL_LOCK",
+			"value": {
+				"data": [
+					"store_beauty",
+					"swipe_right",
+					"train",
+					"contest",
+					"swipe_left",
+					"menu_store",
+					"store_linebox",
+					"store_deco",
+					"menu_deco",
+					"store_delivery",
+					"rest",
+					"train_bubble",
+					"train_complete",
+					"quest",
+					"store_food_snack"
+				]
+			}
+		},
+		{
+			"key": "GYM",
+			"value": "gym_01"
+		},
+		{
+			"key": "GYM_LAST",
+			"value": {
+				"data": {
+					"value": 3
+				}
+			}
+		},
+		{
+			"key": "LINEBOX",
+			"value": {
+				"data": []
+			}
+		},
+		{
+			"key": "QUEST",
+			"value": {
+				"data": [
+					{
+						"quest_id": "11_feed_total",
+						"value": 2,
+						"level": 0,
+						"levelRewarded": -1,
+						"isComplete": false
+					},
+					{
+						"quest_id": "11_buy_food",
+						"value": 4,
+						"level": 0,
+						"levelRewarded": -1,
+						"isComplete": false
+					},
+					{
+						"quest_id": "11_food_rice",
+						"value": 2,
+						"level": 0,
+						"levelRewarded": -1,
+						"isComplete": false
+					},
+					{
+						"quest_id": "12_rest_count",
+						"value": 1,
+						"level": 0,
+						"levelRewarded": -1,
+						"isComplete": false
+					},
+					{
+						"quest_id": "12_max_stam_200",
+						"value": 100,
+						"level": 0,
+						"levelRewarded": -1,
+						"isComplete": false
+					},
+					{
+						"quest_id": "12_rest_time",
+						"value": 0.0013030555513170031,
+						"level": 0,
+						"levelRewarded": -1,
+						"isComplete": false
+					},
+					{
+						"quest_id": "12_rest_wakeup",
+						"value": 1,
+						"level": 0,
+						"levelRewarded": -1,
+						"isComplete": false
+					},
+					{
+						"quest_id": "12_rest_stam",
+						"value": 0,
+						"level": 0,
+						"levelRewarded": -1,
+						"isComplete": false
+					},
+					{
+						"quest_id": "12_max_stam_600",
+						"value": 100,
+						"level": 0,
+						"levelRewarded": -1,
+						"isComplete": false
+					},
+					{
+						"quest_id": "13_linebox_tickets",
+						"value": 20,
+						"level": 0,
+						"levelRewarded": -1,
+						"isComplete": false
+					},
+					{
+						"quest_id": "13_linebox_gold",
+						"value": 1000,
+						"level": 0,
+						"levelRewarded": -1,
+						"isComplete": false
+					},
+					{
+						"quest_id": "13_linebox_count",
+						"value": 1,
+						"level": 0,
+						"levelRewarded": -1,
+						"isComplete": false
+					},
+					{
+						"quest_id": "21_deco_frame",
+						"value": 1,
+						"level": 0,
+						"levelRewarded": -1,
+						"isComplete": false
+					},
+					{
+						"quest_id": "22_deco_theme",
+						"value": 0,
+						"level": 0,
+						"levelRewarded": -1,
+						"isComplete": false
+					},
+					{
+						"quest_id": "22_deco_buy",
+						"value": 1,
+						"level": 0,
+						"levelRewarded": -1,
+						"isComplete": false
+					},
+					{
+						"quest_id": "22_deco_premium",
+						"value": 0,
+						"level": 0,
+						"levelRewarded": -1,
+						"isComplete": false
+					},
+					{
+						"quest_id": "22_deco_install",
+						"value": 2,
+						"level": 0,
+						"levelRewarded": -1,
+						"isComplete": false
+					},
+					{
+						"quest_id": "22_delivery_time",
+						"value": -2.756111111111111e-7,
+						"level": 0,
+						"levelRewarded": -1,
+						"isComplete": false
+					},
+					{
+						"quest_id": "22_delivery",
+						"value": 1,
+						"level": 0,
+						"levelRewarded": -1,
+						"isComplete": false
+					},
+					{
+						"quest_id": "31_body_total",
+						"value": 203,
+						"level": 0,
+						"levelRewarded": -1,
+						"isComplete": false
+					},
+					{
+						"quest_id": "22_deco_premium_theme",
+						"value": 0,
+						"level": 0,
+						"levelRewarded": -1,
+						"isComplete": false
+					},
+					{
+						"quest_id": "31_contest_count",
+						"value": 2,
+						"level": 0,
+						"levelRewarded": -1,
+						"isComplete": false
+					},
+					{
+						"quest_id": "31_training_count",
+						"value": 1,
+						"level": 0,
+						"levelRewarded": -1,
+						"isComplete": false
+					},
+					{
+						"quest_id": "31_contest_win",
+						"value": 1,
+						"level": 0,
+						"levelRewarded": -1,
+						"isComplete": false
+					},
+					{
+						"quest_id": "31_contest_lose",
+						"value": 1,
+						"level": 0,
+						"levelRewarded": -1,
+						"isComplete": false
+					},
+					{
+						"quest_id": "31_contest_touch",
+						"value": 0,
+						"level": 0,
+						"levelRewarded": -1,
+						"isComplete": false
+					},
+					{
+						"quest_id": "33_training_bubble",
+						"value": 19,
+						"level": 0,
+						"levelRewarded": -1,
+						"isComplete": false
+					}
+				]
+			}
+		}
+	]
+}

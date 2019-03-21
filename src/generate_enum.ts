@@ -19,7 +19,7 @@ var json = JSON.parse( jsonString );
 
 var lines = [];
 json.data.forEach( data => {
-	lines.push( `	/// <summary> ${data.value} </summary>
+	lines.push( `	/// <summary> ${data.value.replace( "\n", "\n	/// <para></para>" )} </summary>
 	${data.text_id} = ${data._idx},` );
 });
 
