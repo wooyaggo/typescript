@@ -28,7 +28,7 @@ var body = `using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum I18nText {
+public enum Strings {
 	/// <summary> NULL </summary>
 	NULL = -1,
 ${lines.join( "\n" )}
